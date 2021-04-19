@@ -1,2 +1,8 @@
 var body = document.body;
-body.style.color = 'black';
+var cor = 'red';
+
+var mudaCor = function(alvo, cor){
+    alvo.style.color = cor;
+}
+
+mudaCor(body, cor);
